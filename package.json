@@ -1,0 +1,22 @@
+{
+  "name": "blindpoll-appserver",
+  "version": "1.0.0",
+  "description": "Application Server for Blind Poll Mobile App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kkerr1/BlindPollAppServer.git"
+  },
+  "author": "Kevin Kerr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkerr1/BlindPollAppServer/issues"
+  },
+  "homepage": "https://github.com/kkerr1/BlindPollAppServer",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
