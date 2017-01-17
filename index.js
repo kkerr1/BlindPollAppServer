@@ -1,8 +1,8 @@
 'use strict';
 
-const PORT = 80;
-let express = require('express');
-let app = express();
+const port = process.env.PORT || 3000,
+const express = require('express');
+const app = express();
 
 app.get('/polls', (req, res) => {
 	
@@ -19,6 +19,6 @@ app.get('/', function(req, res){
   res.send('hello world');
 });
 
-let server = app.listen(PORT, () => {
+app.listen(PORT, () => {
 	console.log('Example app listening at http://localhost:%s', PORT);
 });
