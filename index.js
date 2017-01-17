@@ -1,6 +1,6 @@
-const port = process.env.PORT || 3000,
-const express = require('express');
-const app = express();
+var port = process.env.PORT || 3000,
+var express = require('express');
+var app = express();
 
 app.get('/polls', (req, res) => {
 	
