@@ -1,10 +1,10 @@
-var port = process.env.PORT || 3000,
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
 
 app.get('/polls', (req, res) => {
 	
-	var pollCollection = [
+	const pollCollection = [
 	{title: "This is my first Question"},
 	{title: "This is my second Question"}
 	];
@@ -17,6 +17,6 @@ app.get('/', function(req, res){
   res.send('hello world');
 });
 
-app.listen(PORT, () => {
-	console.log('Example app listening at http://localhost:%s', PORT);
+app.listen(port, () => {
+	console.log('Example app listening at http://localhost:%s', port);
 });
