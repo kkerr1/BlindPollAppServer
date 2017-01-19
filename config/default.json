@@ -1,0 +1,11 @@
+{
+  "server": {
+    "port": 3000
+  },
+  "elasticsearch": {
+    "host": "set",
+    "region": "in",
+    "accessKey": "local",
+    "secretKey": "config"
+  }
+}
