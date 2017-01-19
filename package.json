@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "lint": "node node_modules/eslint/bin/eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,9 @@
   "homepage": "https://github.com/kkerr1/BlindPollAppServer",
   "dependencies": {
     "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "config": "^1.24.0",
+    "eslint": "^3.13.1"
   }
 }
